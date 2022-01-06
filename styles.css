@@ -51,6 +51,13 @@ li.pokemon {
     flex: 1;
 }
 
+.sprite {
+    background: url(sprites.png);
+    width: 64px;
+    height: 64px;
+    background-position: 0px 0px;
+}
+
 td.stat {
     text-align: right;
 }

@@ -586,11 +586,9 @@ function generateAndDisplayTeam() {
 
 function fillInPokemon(element, pokemon) {
     element.querySelector(".name").innerHTML = pokemon.name();
-    let spriteDir = "normal";
-    if (pokemon.isShiny()) {
-        spriteDir = "shiny";
-    }
-    element.querySelector(".sprite").src = `sprites/${spriteDir}/${("00" + pokemon.species).slice(-3)}.png`;
+    const x = 64 * (252 - pokemon.species);
+    const y = pokemon.isShiny() ? 64 : 0;
+    element.querySelector(".sprite").style.backgroundPosition = `${x}px ${y}px`;
     element.querySelector(".heldItem").textContent = itemNames[pokemon.heldItem];
     fillInStats(element.querySelector(".stats"), pokemon.stats());
     fillInMoves(element.querySelector(".moves"), pokemon.moves);
