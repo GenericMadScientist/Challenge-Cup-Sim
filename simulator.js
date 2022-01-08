@@ -173,7 +173,7 @@ function getSuitablePokes (team, type, division) {
 }
 
 function MovePool (moves, pokemon, ai) {
-  this.specialAiMoves = []
+  this.signatureMoves = []
   this.goodSupportMoves = []
   this.badSupportMoves = []
   this.goodFirstTypeStabAttacks = []
@@ -188,8 +188,8 @@ function MovePool (moves, pokemon, ai) {
   const [firstType, secondType] = pokemonData[pokemon.species].types
 
   for (const move of moves) {
-    if (ai !== -1 && aiData[ai].specialMoves.includes(move)) {
-      this.specialAiMoves.push(move)
+    if (ai !== -1 && aiData[ai].signatureMoves.includes(move)) {
+      this.signatureMoves.push(move)
       continue
     }
     if (goodSupportMoves.includes(move)) {
@@ -238,7 +238,7 @@ function MovePool (moves, pokemon, ai) {
 
   this.improveChanceOfCompletedCombo = function (move) {
     const arrays = [
-      this.specialAiMoves,
+      this.signatureMoves,
       this.goodSupportMoves,
       this.badSupportMoves,
       this.goodFirstTypeStabAttacks,
@@ -349,9 +349,9 @@ function addSecondMove (pokemon, movePool, prng) {
 }
 
 function addThirdMove (pokemon, movePool, prng, team) {
-  if (movePool.specialAiMoves.length) {
-    pokemon.moves[2] = prng.selectFromArray(movePool.specialAiMoves)
-    movePool.specialAiMoves = movePool.specialAiMoves.filter(item => item !== pokemon.moves[2])
+  if (movePool.signatureMoves.length) {
+    pokemon.moves[2] = prng.selectFromArray(movePool.signatureMoves)
+    movePool.signatureMoves = movePool.signatureMoves.filter(item => item !== pokemon.moves[2])
   } else if (!movePool.goodSupportMoves.length) {
     if (movePool.badSupportMoves.length) {
       pokemon.moves[2] = prng.selectFromArray(movePool.badSupportMoves)

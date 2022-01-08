@@ -4551,224 +4551,224 @@ const playerTemplates = [
 
 const aiData = [{
   template: [10, 10, 4, 4, 4, 4],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [6400, 6400, 6400, 6400, 6400],
   roundTwoStatExp: [9000, 9000, 9000, 9000, 9000],
   roundOneName: 'Camper Marcus',
   roundTwoName: 'Camper Marcus'
 }, {
   template: [3, 3, 3, 3, 3, 3],
-  specialMoves: [77, 92, 139],
+  signatureMoves: [77, 92, 139],
   roundOneStatExp: [12800, 12800, 12800, 12800, 12800],
   roundTwoStatExp: [25600, 25600, 25600, 25600, 25600],
   roundOneName: 'Rocket Grunt ♂',
   roundTwoName: 'Rocket Executive ♂'
 }, {
   template: [2, 2, 2, 2, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [6000, 6000, 6000, 6000, 6000],
   roundTwoStatExp: [36000, 36000, 36000, 36000, 36000],
   roundOneName: 'Picnicker Melissa',
   roundTwoName: 'Picnicker Melissa'
 }, {
   template: [13, 13, 13, 12, 12, 12],
-  specialMoves: [78, 86, 137],
+  signatureMoves: [78, 86, 137],
   roundOneStatExp: [12800, 12800, 12800, 12800, 12800],
   roundTwoStatExp: [28000, 28000, 28000, 28000, 28000],
   roundOneName: 'Guitarist Daren',
   roundTwoName: 'Guitarist Daren'
 }, {
   template: [11, 11, 11, 11, 11, 11],
-  specialMoves: [240],
+  signatureMoves: [240],
   roundOneStatExp: [20000, 20000, 20000, 20000, 20000],
   roundTwoStatExp: [58000, 58000, 58000, 30000, 58000],
   roundOneName: 'Fisherman Curtis',
   roundTwoName: 'Fisherman Curtis'
 }, {
   template: [14, 14, 14, -1, -1, -1],
-  specialMoves: [48, 109, 186, 207],
+  signatureMoves: [48, 109, 186, 207],
   roundOneStatExp: [12800, 12800, 12800, 12800, 12800],
   roundTwoStatExp: [32000, 32000, 32000, 32000, 32000],
   roundOneName: 'Medium Peggy',
   roundTwoName: 'Medium Peggy'
 }, {
   template: [0, 0, 0, 0, 0, 0],
-  specialMoves: [27, 29, 44, 67, 125, 157, 158],
+  signatureMoves: [27, 29, 44, 67, 125, 157, 158],
   roundOneStatExp: [20000, 20000, 20000, 51200, 20000],
   roundTwoStatExp: [55000, 55000, 55000, 65535, 55000],
   roundOneName: 'Rocket Grunt ♀',
   roundTwoName: 'Rocket Executive ♀'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [36000, 36000, 36000, 36000, 36000],
   roundTwoStatExp: [65535, 65535, 65535, 65535, 65535],
   roundOneName: 'Juggler Dwight',
   roundTwoName: 'Juggler Dwight'
 }, {
   template: [6, 6, 6, 6, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [6400, 6400, 6400, 6400, 6400],
   roundTwoStatExp: [8000, 8000, 8000, 8000, 8000],
   roundOneName: 'Twins Jan & Jane',
   roundTwoName: 'Twins Jan & Jane'
 }, {
   template: [4, 4, 5, 5, 5, 5],
-  specialMoves: [201],
+  signatureMoves: [201],
   roundOneStatExp: [11000, 11000, 11000, 11000, 11000],
   roundTwoStatExp: [30000, 30000, 30000, 30000, 30000],
   roundOneName: 'Schoolboy Oliver',
   roundTwoName: 'Schoolboy Oliver'
 }, {
   template: [15, 11, 11, 11, 11, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [25600, 25600, 25600, 25600, 25600],
   roundTwoStatExp: [35000, 35000, 35000, 35000, 35000],
   roundOneName: 'Sailor Curt',
   roundTwoName: 'Sailor Curt'
 }, {
   template: [0, 0, 0, 0, -1, -1],
-  specialMoves: [213],
+  signatureMoves: [213],
   roundOneStatExp: [15000, 15000, 15000, 15000, 15000],
   roundTwoStatExp: [27000, 27000, 27000, 27000, 27000],
   roundOneName: 'Swimmer♀ Darcy',
   roundTwoName: 'Swimmer♀ Darcy'
 }, {
   template: [10, 10, 10, 12, 12, 12],
-  specialMoves: [76, 241],
+  signatureMoves: [76, 241],
   roundOneStatExp: [20000, 20000, 20000, 20000, 20000],
   roundTwoStatExp: [40000, 40000, 40000, 40000, 40000],
   roundOneName: 'Officer Gerald',
   roundTwoName: 'Officer Gerald'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [25600, 25600, 25600, 25600, 25600],
   roundTwoStatExp: [50000, 50000, 50000, 50000, 50000],
   roundOneName: 'Kimono Girl Emiko',
   roundTwoName: 'Kimono Girl Emiko'
 }, {
   template: [17, 7, 14, 14, -1, -1],
-  specialMoves: [28, 104, 107, 108, 134, 148, 230],
+  signatureMoves: [28, 104, 107, 108, 134, 148, 230],
   roundOneStatExp: [22000, 22000, 22000, 22000, 22000],
   roundTwoStatExp: [45000, 45000, 45000, 45000, 45000],
   roundOneName: 'Scientist Roberto',
   roundTwoName: 'Scientist Roberto'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [30000, 30000, 30000, 30000, 30000],
   roundTwoStatExp: [60000, 60000, 60000, 60000, 60000],
   roundOneName: 'Gentleman Travis',
   roundTwoName: 'Gentleman Travis'
 }, {
   template: [10, 10, 4, 4, 4, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [3200, 3200, 3200, 3200, 3200],
   roundTwoStatExp: [4500, 4500, 4500, 4500, 4500],
   roundOneName: 'Camper Marcus',
   roundTwoName: 'Camper Marcus'
 }, {
   template: [3, 3, 3, 3, -1, -1],
-  specialMoves: [92],
+  signatureMoves: [92],
   roundOneStatExp: [6400, 6400, 6400, 6400, 6400],
   roundTwoStatExp: [22000, 22000, 22000, 22000, 22000],
   roundOneName: 'Rocket Grunt ♂',
   roundTwoName: 'Rocket Executive ♂'
 }, {
   template: [2, 2, 2, 2, 2, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [14000, 14000, 14000, 14000, 14000],
   roundTwoStatExp: [35000, 35000, 35000, 35000, 35000],
   roundOneName: 'Picnicker Melissa',
   roundTwoName: 'Picnicker Melissa'
 }, {
   template: [13, 13, 12, 12, -1, -1],
-  specialMoves: [78, 86, 137],
+  signatureMoves: [78, 86, 137],
   roundOneStatExp: [12000, 12000, 12000, 12000, 12000],
   roundTwoStatExp: [30000, 30000, 30000, 30000, 30000],
   roundOneName: 'Guitarist Daren',
   roundTwoName: 'Guitarist Daren'
 }, {
   template: [11, 11, 11, 11, 11, 11],
-  specialMoves: [240],
+  signatureMoves: [240],
   roundOneStatExp: [16000, 16000, 16000, 16000, 16000],
   roundTwoStatExp: [40000, 40000, 40000, 40000, 40000],
   roundOneName: 'Fisherman Curtis',
   roundTwoName: 'Fisherman Curtis'
 }, {
   template: [7, 7, 14, 14, 14, -1],
-  specialMoves: [48, 109, 186, 207],
+  signatureMoves: [48, 109, 186, 207],
   roundOneStatExp: [7500, 7500, 7500, 7500, 7500],
   roundTwoStatExp: [28000, 28000, 28000, 28000, 28000],
   roundOneName: 'Medium Peggy',
   roundTwoName: 'Medium Peggy'
 }, {
   template: [0, 0, 0, 0, 0, 0],
-  specialMoves: [27, 29, 44, 67, 125, 157, 158],
+  signatureMoves: [27, 29, 44, 67, 125, 157, 158],
   roundOneStatExp: [14000, 14000, 14000, 40000, 14000],
   roundTwoStatExp: [35000, 35000, 35000, 65535, 35000],
   roundOneName: 'Rocket Grunt ♀',
   roundTwoName: 'Rocket Executive ♀'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [25600, 25600, 25600, 25600, 25600],
   roundTwoStatExp: [50000, 50000, 50000, 50000, 50000],
   roundOneName: 'Juggler Dwight',
   roundTwoName: 'Juggler Dwight'
 }, {
   template: [6, 6, 6, 2, 2, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [500, 500, 500, 500, 500],
   roundTwoStatExp: [3200, 3200, 3200, 3200, 3200],
   roundOneName: 'Twins Jan & Jane',
   roundTwoName: 'Twins Jan & Jane'
 }, {
   template: [8, 4, 4, 4, 5, 5],
-  specialMoves: [201],
+  signatureMoves: [201],
   roundOneStatExp: [7500, 7500, 7500, 7500, 7500],
   roundTwoStatExp: [12800, 12800, 12800, 12800, 12800],
   roundOneName: 'Schoolboy Oliver',
   roundTwoName: 'Schoolboy Oliver'
 }, {
   template: [15, 15, 11, 11, 11, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [12800, 12800, 12800, 12800, 12800],
   roundTwoStatExp: [20000, 20000, 20000, 20000, 20000],
   roundOneName: 'Sailor Curt',
   roundTwoName: 'Sailor Curt'
 }, {
   template: [1, 1, 0, 0, 0, -1],
-  specialMoves: [213],
+  signatureMoves: [213],
   roundOneStatExp: [7500, 7500, 7500, 7500, 7500],
   roundTwoStatExp: [18000, 18000, 18000, 18000, 18000],
   roundOneName: 'Swimmer♀ Darcy',
   roundTwoName: 'Swimmer♀ Darcy'
 }, {
   template: [10, 10, 10, 12, 12, 12],
-  specialMoves: [76, 241],
+  signatureMoves: [76, 241],
   roundOneStatExp: [14000, 14000, 14000, 14000, 14000],
   roundTwoStatExp: [30000, 30000, 30000, 30000, 30000],
   roundOneName: 'Officer Gerald',
   roundTwoName: 'Officer Gerald'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [16000, 16000, 16000, 16000, 16000],
   roundTwoStatExp: [35000, 35000, 35000, 35000, 35000],
   roundOneName: 'Kimono Girl Emiko',
   roundTwoName: 'Kimono Girl Emiko'
 }, {
   template: [17, 7, 14, 14, -1, -1],
-  specialMoves: [28, 104, 107, 108, 134, 148, 230],
+  signatureMoves: [28, 104, 107, 108, 134, 148, 230],
   roundOneStatExp: [12800, 12800, 12800, 12800, 12800],
   roundTwoStatExp: [33000, 33000, 33000, 33000, 33000],
   roundOneName: 'Scientist Roberto',
   roundTwoName: 'Scientist Roberto'
 }, {
   template: [-1, -1, -1, -1, -1, -1],
-  specialMoves: [],
+  signatureMoves: [],
   roundOneStatExp: [22400, 22400, 22400, 22400, 22400],
   roundTwoStatExp: [47000, 47000, 47000, 47000, 47000],
   roundOneName: 'Gentleman Travis',
