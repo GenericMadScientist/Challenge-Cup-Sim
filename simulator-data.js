@@ -3790,7 +3790,7 @@ const moveData = [{
   name: 'Karate Chop',
   type: 1
 }, {
-  name: 'Double Slap',
+  name: 'DoubleSlap',
   type: 0
 }, {
   name: 'Comet Punch',
@@ -3808,13 +3808,13 @@ const moveData = [{
   name: 'Ice Punch',
   type: 15
 }, {
-  name: 'Thunder Punch',
+  name: 'ThunderPunch',
   type: 13
 }, {
   name: 'Scratch',
   type: 0
 }, {
-  name: 'Vise Grip',
+  name: 'ViceGrip',
   type: 0
 }, {
   name: 'Guillotine',
@@ -3865,7 +3865,7 @@ const moveData = [{
   name: 'Rolling Kick',
   type: 1
 }, {
-  name: 'Sand Attack',
+  name: 'Sand-Attack',
   type: 4
 }, {
   name: 'Headbutt',
@@ -3928,7 +3928,7 @@ const moveData = [{
   name: 'Supersonic',
   type: 0
 }, {
-  name: 'Sonic Boom',
+  name: 'SonicBoom',
   type: 0
 }, {
   name: 'Disable',
@@ -3964,7 +3964,7 @@ const moveData = [{
   name: 'Psybeam',
   type: 14
 }, {
-  name: 'Bubble Beam',
+  name: 'BubbleBeam',
   type: 11
 }, {
   name: 'Aurora Beam',
@@ -4009,10 +4009,10 @@ const moveData = [{
   name: 'Razor Leaf',
   type: 12
 }, {
-  name: 'Solar Beam',
+  name: 'SolarBeam',
   type: 12
 }, {
-  name: 'Poison Powder',
+  name: 'PoisonPowder',
   type: 3
 }, {
   name: 'Stun Spore',
@@ -4033,7 +4033,7 @@ const moveData = [{
   name: 'Fire Spin',
   type: 10
 }, {
-  name: 'Thunder Shock',
+  name: 'ThunderShock',
   type: 13
 }, {
   name: 'Thunderbolt',
@@ -4105,7 +4105,7 @@ const moveData = [{
   name: 'Minimize',
   type: 0
 }, {
-  name: 'Smokescreen',
+  name: 'SmokeScreen',
   type: 0
 }, {
   name: 'Confuse Ray',
@@ -4141,7 +4141,7 @@ const moveData = [{
   name: 'Mirror Move',
   type: 2
 }, {
-  name: 'Self-Destruct',
+  name: 'Selfdestruct',
   type: 0
 }, {
   name: 'Egg Bomb',
@@ -4186,10 +4186,10 @@ const moveData = [{
   name: 'Kinesis',
   type: 14
 }, {
-  name: 'Soft-Boiled',
+  name: 'Softboiled',
   type: 0
 }, {
-  name: 'High Jump Kick',
+  name: 'Hi Jump Kick',
   type: 1
 }, {
   name: 'Glare',
@@ -4336,7 +4336,7 @@ const moveData = [{
   name: 'Scary Face',
   type: 0
 }, {
-  name: 'Feint Attack',
+  name: 'Faint Attack',
   type: 17
 }, {
   name: 'Sweet Kiss',
@@ -4450,13 +4450,13 @@ const moveData = [{
   name: 'Magnitude',
   type: 4
 }, {
-  name: 'Dynamic Punch',
+  name: 'DynamicPunch',
   type: 1
 }, {
   name: 'Megahorn',
   type: 6
 }, {
-  name: 'Dragon Breath',
+  name: 'DragonBreath',
   type: 16
 }, {
   name: 'Baton Pass',
@@ -4516,10 +4516,10 @@ const moveData = [{
   name: 'Psych Up',
   type: 0
 }, {
-  name: 'Extreme Speed',
+  name: 'ExtremeSpeed',
   type: 0
 }, {
-  name: 'Ancient Power',
+  name: 'AncientPower',
   type: 5
 }, {
   name: 'Shadow Ball',
