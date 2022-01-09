@@ -423,8 +423,7 @@ function addHeldItem (pokemon, team, prng) {
   const setDamageMoves = [49, 68, 69, 82, 101, 149, 162, 220, 243]
   const typeBoostItems = [170, 98, 77, 81, 76, 125, 88, 113, 143, -1, 138, 95, 117, 108, 96, 107, 151, 102]
 
-  let item = 0
-  do {
+  while (true) {
     const randByte = prng.randByte()
     if (randByte >= 243 && exclusiveItemSpecies.includes(pokemon.species)) {
       item = exclusiveItems[pokemon.species]
@@ -456,8 +455,9 @@ function addHeldItem (pokemon, team, prng) {
     } else if (item === 80 && pokemonTypes.includes(10)) {
       continue
     }
-  } while (item === 0)
-  pokemon.heldItem = item
+    pokemon.heldItem = item
+    return
+  }
 }
 
 function shuffleMoves (pokemon, prng) {
