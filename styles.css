@@ -3,6 +3,12 @@ header > * {
     justify-content: center;
 }
 
+a {
+    margin-left: 0.333em;
+    margin-right: 0.333em;
+    color: deepskyblue;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
