@@ -79,7 +79,7 @@ function Pokemon (species) {
 
   this.mainStatCalc = function (statName) {
     const intrinsicStat = 2 * (pokemonData[this.species].baseStats[statName] + this.dvs[statName])
-    const statExpBoost = Math.ceil(Math.sqrt(this.statExp[statName])) >> 2
+    const statExpBoost = Math.min(Math.ceil(Math.sqrt(this.statExp[statName])), 255) >> 2
     return Math.floor(((intrinsicStat + statExpBoost) * this.level) / 100)
   }
 
